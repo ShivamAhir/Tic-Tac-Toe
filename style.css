@@ -1,0 +1,45 @@
+body{
+    background-color: white;
+}
+.game{
+    background-color: black;
+    width: 300px;
+    margin: auto;
+    align-content: center;
+    border: 10px gold solid;
+    border-radius: 20px;
+}
+h1{
+    font-family: cursive;
+    color: silver;
+    text-align: center;
+}
+h2{
+    color: white;
+    margin-left: 10px;
+
+}
+#one,#two,#three,#four,#five,#six,#sev,#eig,#nin{
+    width: 80px;
+    height: 40px;
+    font-size: 40px;
+    color: black;
+    background-color:white ;
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+#start,#reset{
+    margin-top: 40px;
+    width: 140px;
+    height: 40px;
+    font-size: 35px;
+    margin-left: 6px;
+    margin-bottom: 10px;
+}
+#start{
+    background-color: green;
+}
+#reset{
+    background-color: red;
+}

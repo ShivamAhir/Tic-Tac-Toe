@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="logic.js"></script>
+</head>
+<body id="body">
+    <div class="game">
+        <h1>Tic Tac Toe</h1>
+        <h2 id="notice">Start game</h2>
+        <div>
+            <div>
+                <input id="one" type="button" value="" onclick="Myturn('one')">
+                <input id="two" type="button" value="" onclick="Myturn('two')">
+                <input id="three" type="button" value="" onclick="Myturn('three')">
+            </div>
+            <div>
+                <input id="four" type="button" value="" onclick="Myturn('four')">
+                <input id="five" type="button" value="" onclick="Myturn('five')">
+                <input id="six" type="button" value="" onclick="Myturn('six')">
+            </div>
+            <div>
+                <input id="sev" type="button" value="" onclick="Myturn('sev')">
+                <input id="eig" type="button" value="" onclick="Myturn('eig')">
+                <input id="nin" type="button" value="" onclick="Myturn('nin')">
+            </div>
+            <div>
+                <input class="bottom" id="start" type="button" value="Start" onclick="Start_game()">
+                <input class="bottom" id="reset" type="button" value="Reset" onclick="Myreset()">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
